@@ -8,7 +8,7 @@ var section2 = 2750;
 var section3 = 5750;
 var section4 = 7900;
 var section5 = 9500;
-var debug = true;
+var debug = false;
 var game = new Phaser.Game(w,h,Phaser.CANVAS,'canvas',{preload:preload,create:create,update:update,render:render});
 var style1 = { font:"50px Arial", fill: "#fff", align: "center" };
 var hero;
